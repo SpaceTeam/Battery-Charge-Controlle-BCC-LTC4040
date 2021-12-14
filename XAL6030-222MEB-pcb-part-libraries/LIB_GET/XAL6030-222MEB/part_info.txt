@@ -1,0 +1,9 @@
+Manufacturer=COILCRAFT
+PartNumber=XAL6030-222MEB
+PartCategory=Inductor
+PackageCategory=Other
+PinCount=2
+Version=1.1
+Released=2019-03-02 23:37:37
+Downloaded=2021-12-11 15:14:32
+3D=Y

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP XAL6030-222MEB
+D Fixed Inductors 2.2uH 20% 10A 13.97mOhms AEC-Q200
+K
+F https://www.coilcraft.com/pdfs/xal60xx.pdf
+$ENDCMP
+#
+#End Doc Library

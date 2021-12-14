@@ -1,0 +1,16 @@
+.XAL6030-222MEB :1 ;Fixed Inductors 2.2uH 20% 10A 13.97mOhms AEC-Q200
+XAL6030182MEB
+*STM L
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN XAL6030-222MEB
+~!Mouser Part Number (994-XAL6030-222MEB)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Coilcraft/XAL6030-222MEB/?qs=VJjuEbE9QBMs0xr%2FAJ9a1A%3D%3D)
+~!Manufacturer_Name (COILCRAFT)
+~!Manufacturer_Part_Number (XAL6030-222MEB)
+~!Link Datasheet (https://www.coilcraft.com/pdfs/xal60xx.pdf)
+~!Height (3.1mm)
+~!3D_Model (XAL6030-222MEB)
+XAL6030-222MEB
+1.1!U 2.1!U 

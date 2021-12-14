@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_992811"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-03-02-23:37:37)
+    (utime 2019-07-02-14:38:35)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "XAL6030-222MEB")
+)
+
+
+(pinAssign "ECS_992811"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-03-02-23:37:37)
+    (utime 2019-07-02-14:38:35)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_992811")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "XAL6030-222MEB")
+)
+
+
+(part "XAL6030-222MEB"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-03-02-23:37:37)
+    (utime 2019-07-02-14:38:35)
+    (packageRef "XAL6030-222MEB")
+    (pinAssignRef "ECS_992811")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "L")
+    (property "description" "Fixed Inductors 2.2uH 20% 10A 13.97mOhms AEC-Q200")
+    (property "Mouser_Part_Number" "994-XAL6030-222MEB")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Coilcraft/XAL6030-222MEB/?qs=VJjuEbE9QBMs0xr%2FAJ9a1A%3D%3D")
+    (property "Manufacturer_Name" "COILCRAFT")
+    (property "Manufacturer_Part_Number" "XAL6030-222MEB")
+    (property "Datasheet_Link" "https://www.coilcraft.com/pdfs/xal60xx.pdf")
+    (property "compAreaTopHeight" 3.1)
+)
+
+

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'XAL6030_222MEB'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "COILCRAFT", "XAL6030-222MEB" (!) = "", "XAL6030182MEB", "Other", "994-XAL6030-222MEB", "https://www.mouser.co.uk/ProductDetail/Coilcraft/XAL6030-222MEB/?qs=VJjuEbE9QBMs0xr%2FAJ9a1A%3D%3D", "Fixed Inductors 2.2uH 20% 10A 13.97mOhms AEC-Q200", "https://www.coilcraft.com/pdfs/xal60xx.pdf", "3.1 mm"
+END_PART
+
+END.

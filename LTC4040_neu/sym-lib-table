@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name STS-con)(type Legacy)(uri ${KIPRJMOD}/STS1_PCB_LIBRARIES/STSLib/STS-con.lib)(options "")(descr ""))
+  (lib (name SPV1040T)(type Legacy)(uri C:/Users/Clemens/Desktop/Space_Team_SAT1/KICAD/SPV1040T_KICAD/SPV1040T.lib)(options "")(descr ""))
+  (lib (name STS1_template-rescue)(type Legacy)(uri ${KIPRJMOD}/STS1_template-rescue.lib)(options "")(descr ""))
+)

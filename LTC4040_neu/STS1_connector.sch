@@ -1,0 +1,528 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title "STS1_connectors"
+Date "21.02.2021"
+Rev "1.0"
+Comp "TU Wien Space Team"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_02x25_Odd_Even CSBI_2
+U 1 1 6179B797
+P 3650 2950
+F 0 "CSBI_2" H 3700 4367 50  0000 C CNN
+F 1 "Conn_02x25_Odd_Even" H 3700 4276 50  0000 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_2x25_P2.00mm_Vertical" H 3650 2950 50  0001 C CNN
+F 3 "~" H 3650 2950 50  0001 C CNN
+	1    3650 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 1750 3950 1750
+Wire Wire Line
+	3450 1850 3950 1850
+Wire Wire Line
+	3450 1950 3950 1950
+Wire Wire Line
+	3450 2050 3950 2050
+Wire Wire Line
+	3450 2150 3950 2150
+Wire Wire Line
+	3450 2250 3950 2250
+Wire Wire Line
+	3450 2350 3950 2350
+Wire Wire Line
+	3450 2450 3950 2450
+Wire Wire Line
+	3450 2550 3950 2550
+Wire Wire Line
+	3450 2650 3950 2650
+Wire Wire Line
+	3450 2750 3950 2750
+Wire Wire Line
+	3450 2850 3950 2850
+Wire Wire Line
+	3450 2950 3950 2950
+Wire Wire Line
+	3450 3050 3950 3050
+Wire Wire Line
+	3450 3150 3950 3150
+Wire Wire Line
+	3450 3350 3950 3350
+Wire Wire Line
+	3450 3250 3950 3250
+Wire Wire Line
+	3450 3450 3950 3450
+Wire Wire Line
+	3450 3550 3950 3550
+Wire Wire Line
+	3450 3650 3950 3650
+Wire Wire Line
+	3450 3750 3950 3750
+Wire Wire Line
+	3450 3850 3950 3850
+Wire Wire Line
+	3450 3950 3950 3950
+Wire Wire Line
+	3450 4050 3950 4050
+Wire Wire Line
+	3450 4150 3950 4150
+$Comp
+L Connector_Generic:Conn_02x25_Odd_Even CSBI_1
+U 1 1 617AB6CD
+P 6700 2900
+F 0 "CSBI_1" H 6750 4317 50  0000 C CNN
+F 1 "Conn_02x25_Odd_Even" H 6750 4226 50  0000 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_2x25_P2.00mm_Vertical" H 6700 2900 50  0001 C CNN
+F 3 "~" H 6700 2900 50  0001 C CNN
+	1    6700 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 1700 7000 1700
+Wire Wire Line
+	6500 1800 7000 1800
+Wire Wire Line
+	6500 1900 7000 1900
+Wire Wire Line
+	6500 2000 7000 2000
+Wire Wire Line
+	6500 2100 7000 2100
+Wire Wire Line
+	6500 2200 7000 2200
+Wire Wire Line
+	6500 2300 7000 2300
+Wire Wire Line
+	6500 2400 7000 2400
+Wire Wire Line
+	6500 2500 7000 2500
+Wire Wire Line
+	6500 2600 7000 2600
+Wire Wire Line
+	6500 2700 7000 2700
+Wire Wire Line
+	6500 2800 7000 2800
+Wire Wire Line
+	6500 2900 7000 2900
+Wire Wire Line
+	6500 3000 7000 3000
+Wire Wire Line
+	6500 3100 7000 3100
+Wire Wire Line
+	6500 3300 7000 3300
+Wire Wire Line
+	6500 3200 7000 3200
+Wire Wire Line
+	6500 3400 7000 3400
+Wire Wire Line
+	6500 3500 7000 3500
+Wire Wire Line
+	6500 3600 7000 3600
+Wire Wire Line
+	6500 3700 7000 3700
+Wire Wire Line
+	6500 3800 7000 3800
+Wire Wire Line
+	6500 3900 7000 3900
+Wire Wire Line
+	6500 4000 7000 4000
+Wire Wire Line
+	6500 4100 7000 4100
+$Comp
+L power:GND #PWR042
+U 1 1 617AC8F5
+P 3450 1750
+F 0 "#PWR042" H 3450 1500 50  0001 C CNN
+F 1 "GND" V 3455 1622 50  0000 R CNN
+F 2 "" H 3450 1750 50  0001 C CNN
+F 3 "" H 3450 1750 50  0001 C CNN
+	1    3450 1750
+	0    1    1    0   
+$EndComp
+Connection ~ 3450 1750
+$Comp
+L power:GND #PWR044
+U 1 1 617ACFF5
+P 3450 1850
+F 0 "#PWR044" H 3450 1600 50  0001 C CNN
+F 1 "GND" V 3455 1722 50  0000 R CNN
+F 2 "" H 3450 1850 50  0001 C CNN
+F 3 "" H 3450 1850 50  0001 C CNN
+	1    3450 1850
+	0    1    1    0   
+$EndComp
+Connection ~ 3450 1850
+$Comp
+L power:VBUS #PWR045
+U 1 1 617AD547
+P 3450 1950
+F 0 "#PWR045" H 3450 1800 50  0001 C CNN
+F 1 "VBUS" V 3465 2077 50  0000 L CNN
+F 2 "" H 3450 1950 50  0001 C CNN
+F 3 "" H 3450 1950 50  0001 C CNN
+	1    3450 1950
+	0    -1   -1   0   
+$EndComp
+Connection ~ 3450 1950
+$Comp
+L power:VBUS #PWR046
+U 1 1 617ADEFD
+P 3450 2050
+F 0 "#PWR046" H 3450 1900 50  0001 C CNN
+F 1 "VBUS" V 3465 2177 50  0000 L CNN
+F 2 "" H 3450 2050 50  0001 C CNN
+F 3 "" H 3450 2050 50  0001 C CNN
+	1    3450 2050
+	0    -1   -1   0   
+$EndComp
+Connection ~ 3450 2050
+$Comp
+L power:GND #PWR047
+U 1 1 617AE72F
+P 3450 2150
+F 0 "#PWR047" H 3450 1900 50  0001 C CNN
+F 1 "GND" V 3455 2022 50  0000 R CNN
+F 2 "" H 3450 2150 50  0001 C CNN
+F 3 "" H 3450 2150 50  0001 C CNN
+	1    3450 2150
+	0    1    1    0   
+$EndComp
+Connection ~ 3450 2150
+Text HLabel 3450 2350 0    50   Input ~ 0
+EDU_Heartbeat
+$Comp
+L power:GND #PWR049
+U 1 1 617AF69D
+P 3450 2650
+F 0 "#PWR049" H 3450 2400 50  0001 C CNN
+F 1 "GND" V 3455 2522 50  0000 R CNN
+F 2 "" H 3450 2650 50  0001 C CNN
+F 3 "" H 3450 2650 50  0001 C CNN
+	1    3450 2650
+	0    1    1    0   
+$EndComp
+Connection ~ 3450 2650
+Text HLabel 3450 2750 0    50   Input ~ 0
+EDU_EN
+Text HLabel 3450 2850 0    50   Input ~ 0
+EDU_UPDATE
+$Comp
+L power:GND #PWR050
+U 1 1 617B045A
+P 3450 2950
+F 0 "#PWR050" H 3450 2700 50  0001 C CNN
+F 1 "GND" V 3455 2822 50  0000 R CNN
+F 2 "" H 3450 2950 50  0001 C CNN
+F 3 "" H 3450 2950 50  0001 C CNN
+	1    3450 2950
+	0    1    1    0   
+$EndComp
+Connection ~ 3450 2950
+Wire Wire Line
+	3450 3050 2850 3050
+Connection ~ 3450 3050
+Wire Wire Line
+	3450 3150 2850 3150
+Connection ~ 3450 3150
+Wire Wire Line
+	3450 3250 2850 3250
+Connection ~ 3450 3250
+Wire Wire Line
+	3450 3350 2850 3350
+Connection ~ 3450 3350
+Wire Wire Line
+	3450 3450 2850 3450
+Connection ~ 3450 3450
+Wire Wire Line
+	3450 3550 2850 3550
+Connection ~ 3450 3550
+Text Label 3000 3050 0    50   ~ 0
+EDU_SPI_1
+Text Label 3000 3150 0    50   ~ 0
+EDU_SPI_2
+Text Label 3000 3250 0    50   ~ 0
+EDU_SPI_3
+Text Label 3000 3350 0    50   ~ 0
+EDU_SPI_4
+Text Label 3000 3450 0    50   ~ 0
+EDU_SPI_5
+Text Label 3000 3550 0    50   ~ 0
+EDU_SPI_6
+$Comp
+L power:GND #PWR052
+U 1 1 617B97C4
+P 3450 3650
+F 0 "#PWR052" H 3450 3400 50  0001 C CNN
+F 1 "GND" V 3455 3522 50  0000 R CNN
+F 2 "" H 3450 3650 50  0001 C CNN
+F 3 "" H 3450 3650 50  0001 C CNN
+	1    3450 3650
+	0    1    1    0   
+$EndComp
+Connection ~ 3450 3650
+$Comp
+L power:GND #PWR057
+U 1 1 617B9D0C
+P 3450 4050
+F 0 "#PWR057" H 3450 3800 50  0001 C CNN
+F 1 "GND" V 3455 3922 50  0000 R CNN
+F 2 "" H 3450 4050 50  0001 C CNN
+F 3 "" H 3450 4050 50  0001 C CNN
+	1    3450 4050
+	0    1    1    0   
+$EndComp
+Connection ~ 3450 4050
+$Comp
+L power:GND #PWR059
+U 1 1 617BA312
+P 3450 4150
+F 0 "#PWR059" H 3450 3900 50  0001 C CNN
+F 1 "GND" V 3455 4022 50  0000 R CNN
+F 2 "" H 3450 4150 50  0001 C CNN
+F 3 "" H 3450 4150 50  0001 C CNN
+	1    3450 4150
+	0    1    1    0   
+$EndComp
+Connection ~ 3450 4150
+Entry Wire Line
+	2750 3150 2850 3050
+Entry Wire Line
+	2750 3250 2850 3150
+Entry Wire Line
+	2750 3350 2850 3250
+Entry Wire Line
+	2750 3450 2850 3350
+Entry Wire Line
+	2750 3550 2850 3450
+Entry Wire Line
+	2750 3650 2850 3550
+Wire Bus Line
+	2750 3900 2550 3900
+Text HLabel 2550 3900 0    50   Input ~ 0
+EDU_SPI_[1..6]
+Text Notes 1450 4550 0    50   ~ 0
+For SPI Buses the numbering is as follows\n1: CLK\n2: MOSI\n3: MISO\n4: CS1\n5: CS2\n........
+$Comp
+L power:GND #PWR041
+U 1 1 617C375F
+P 6500 1700
+F 0 "#PWR041" H 6500 1450 50  0001 C CNN
+F 1 "GND" V 6505 1572 50  0000 R CNN
+F 2 "" H 6500 1700 50  0001 C CNN
+F 3 "" H 6500 1700 50  0001 C CNN
+	1    6500 1700
+	0    1    1    0   
+$EndComp
+Connection ~ 6500 1700
+$Comp
+L power:GND #PWR043
+U 1 1 617C40AB
+P 6500 1800
+F 0 "#PWR043" H 6500 1550 50  0001 C CNN
+F 1 "GND" V 6505 1672 50  0000 R CNN
+F 2 "" H 6500 1800 50  0001 C CNN
+F 3 "" H 6500 1800 50  0001 C CNN
+	1    6500 1800
+	0    1    1    0   
+$EndComp
+Connection ~ 6500 1800
+$Comp
+L power:GND #PWR058
+U 1 1 617C4645
+P 6500 4100
+F 0 "#PWR058" H 6500 3850 50  0001 C CNN
+F 1 "GND" V 6505 3972 50  0000 R CNN
+F 2 "" H 6500 4100 50  0001 C CNN
+F 3 "" H 6500 4100 50  0001 C CNN
+	1    6500 4100
+	0    1    1    0   
+$EndComp
+Connection ~ 6500 4100
+$Comp
+L power:GND #PWR056
+U 1 1 617C4E49
+P 6500 4000
+F 0 "#PWR056" H 6500 3750 50  0001 C CNN
+F 1 "GND" V 6505 3872 50  0000 R CNN
+F 2 "" H 6500 4000 50  0001 C CNN
+F 3 "" H 6500 4000 50  0001 C CNN
+	1    6500 4000
+	0    1    1    0   
+$EndComp
+Connection ~ 6500 4000
+Wire Wire Line
+	6500 3600 6000 3600
+Wire Wire Line
+	6500 3500 6000 3500
+Connection ~ 6500 3600
+Wire Wire Line
+	6500 3400 6000 3400
+Connection ~ 6500 3500
+Wire Wire Line
+	6500 3300 6000 3300
+Connection ~ 6500 3400
+Wire Wire Line
+	6500 3200 6000 3200
+Connection ~ 6500 3300
+Wire Wire Line
+	6500 3100 6000 3100
+Connection ~ 6500 3200
+Text Label 6000 3100 0    50   ~ 0
+COBC_SPI_1
+Text Label 6000 3200 0    50   ~ 0
+COBC_SPI_2
+Text Label 6000 3300 0    50   ~ 0
+COBC_SPI_3
+Text Label 6000 3400 0    50   ~ 0
+COBC_SPI_4
+Text Label 6000 3500 0    50   ~ 0
+COBC_SPI_5
+Text Label 6000 3600 0    50   ~ 0
+COBC_SPI_6
+Entry Wire Line
+	5900 3200 6000 3100
+Entry Wire Line
+	5900 3300 6000 3200
+Entry Wire Line
+	5900 3400 6000 3300
+Entry Wire Line
+	5900 3500 6000 3400
+Entry Wire Line
+	5900 3600 6000 3500
+Entry Wire Line
+	5900 3700 6000 3600
+Wire Bus Line
+	5900 3700 5600 3700
+$Comp
+L power:GND #PWR051
+U 1 1 617DB593
+P 6500 3000
+F 0 "#PWR051" H 6500 2750 50  0001 C CNN
+F 1 "GND" V 6505 2872 50  0000 R CNN
+F 2 "" H 6500 3000 50  0001 C CNN
+F 3 "" H 6500 3000 50  0001 C CNN
+	1    6500 3000
+	0    1    1    0   
+$EndComp
+Connection ~ 6500 3100
+Connection ~ 6500 3000
+Text HLabel 6500 2900 0    50   Input ~ 0
+EPS_CHARGING
+Text HLabel 6500 2800 0    50   Input ~ 0
+EPS_ANT_DEPLOYED
+Text HLabel 6500 2700 0    50   Input ~ 0
+EPS_BAT_GOOD
+$Comp
+L power:GND #PWR048
+U 1 1 617DE51F
+P 6500 2600
+F 0 "#PWR048" H 6500 2350 50  0001 C CNN
+F 1 "GND" V 6505 2472 50  0000 R CNN
+F 2 "" H 6500 2600 50  0001 C CNN
+F 3 "" H 6500 2600 50  0001 C CNN
+	1    6500 2600
+	0    1    1    0   
+$EndComp
+Connection ~ 6500 2600
+Text HLabel 6500 2500 0    50   Input ~ 0
+UCI_COBC_3V3
+Connection ~ 6500 2400
+Connection ~ 6500 2300
+Text Label 5750 2400 0    50   ~ 0
+UCI_COBC_UART_2
+Text Label 5750 2300 0    50   ~ 0
+UCI_COBC_UART_1
+Wire Wire Line
+	5750 2400 6500 2400
+Wire Wire Line
+	5750 2300 6500 2300
+Entry Wire Line
+	5650 2400 5750 2300
+Entry Wire Line
+	5650 2500 5750 2400
+Wire Bus Line
+	5650 2400 5650 2500
+Wire Bus Line
+	5650 2500 5500 2500
+Text HLabel 5500 2500 0    50   Input ~ 0
+UCI_COBC_UART_[1..2]
+Text HLabel 5600 3700 0    50   Input ~ 0
+COBC_SPI_[1..6]
+Connection ~ 3450 2550
+Connection ~ 3450 2450
+Text Label 2700 2450 0    50   ~ 0
+UART_COBC_EDU_1
+Text Label 2700 2550 0    50   ~ 0
+UART_COBC_EDU_2
+Wire Wire Line
+	2700 2550 3450 2550
+Wire Wire Line
+	2700 2450 3450 2450
+Entry Wire Line
+	2600 2550 2700 2450
+Entry Wire Line
+	2600 2650 2700 2550
+Wire Bus Line
+	2600 2550 2600 2650
+Wire Bus Line
+	2600 2650 2450 2650
+Text HLabel 2450 2650 0    50   Input ~ 0
+UART_COBC_EDU_[1..2]
+$Comp
+L power:GND #PWR053
+U 1 1 6180BD18
+P 6500 3700
+F 0 "#PWR053" H 6500 3450 50  0001 C CNN
+F 1 "GND" V 6505 3572 50  0000 R CNN
+F 2 "" H 6500 3700 50  0001 C CNN
+F 3 "" H 6500 3700 50  0001 C CNN
+	1    6500 3700
+	0    1    1    0   
+$EndComp
+Connection ~ 6500 3700
+$Comp
+L power:VBUS #PWR054
+U 1 1 6180C534
+P 6500 3800
+F 0 "#PWR054" H 6500 3650 50  0001 C CNN
+F 1 "VBUS" V 6515 3927 50  0000 L CNN
+F 2 "" H 6500 3800 50  0001 C CNN
+F 3 "" H 6500 3800 50  0001 C CNN
+	1    6500 3800
+	0    -1   -1   0   
+$EndComp
+Connection ~ 6500 3800
+$Comp
+L power:VBUS #PWR055
+U 1 1 6180CCF4
+P 6500 3900
+F 0 "#PWR055" H 6500 3750 50  0001 C CNN
+F 1 "VBUS" V 6515 4027 50  0000 L CNN
+F 2 "" H 6500 3900 50  0001 C CNN
+F 3 "" H 6500 3900 50  0001 C CNN
+	1    6500 3900
+	0    -1   -1   0   
+$EndComp
+Connection ~ 6500 3900
+NoConn ~ 3450 2250
+NoConn ~ 3450 3750
+NoConn ~ 3450 3850
+NoConn ~ 3450 3950
+NoConn ~ 6500 1900
+NoConn ~ 6500 2000
+NoConn ~ 6500 2100
+NoConn ~ 6500 2200
+Text Notes 4650 2200 0    50   ~ 0
+For UART the numbering is as follows\n1: TX\n2: RX\n
+Wire Bus Line
+	5900 3200 5900 3700
+Wire Bus Line
+	2750 3150 2750 3900
+$EndSCHEMATC

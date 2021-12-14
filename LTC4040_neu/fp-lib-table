@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name spaceteam)(type KiCad)(uri ${KIPRJMOD}/STS1_PCB_LIBRARIES/SpaceteamLib/spaceteam.pretty)(options "")(descr ""))
+  (lib (name STS)(type KiCad)(uri ${KIPRJMOD}/STS1_PCB_LIBRARIES/STSLib/STS.pretty)(options "")(descr ""))
+)

@@ -1,0 +1,3 @@
+[submodule "STS1_PCB_LIBRARIES"]
+	path = STS1_PCB_LIBRARIES
+	url = git@github.com:SpaceTeam/STS1_PCB_LIBRARIES.git

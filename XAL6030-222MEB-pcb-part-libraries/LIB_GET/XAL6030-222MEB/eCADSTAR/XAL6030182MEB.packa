@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "XAL6030-222MEB"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-03-02-23:37:01)
+    (mountForm default
+        (footprintRef "XAL6030182MEB")
+        (spec "System")
+    )
+)
