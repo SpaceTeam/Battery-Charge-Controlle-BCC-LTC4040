@@ -1,4 +1,8 @@
 (fp_lib_table
   (lib (name spaceteam)(type KiCad)(uri ${KIPRJMOD}/STS1_PCB_LIBRARIES/SpaceteamLib/spaceteam.pretty)(options "")(descr ""))
   (lib (name STS)(type KiCad)(uri ${KIPRJMOD}/STS1_PCB_LIBRARIES/STSLib/STS.pretty)(options "")(descr ""))
+  (lib (name LTC4040)(type KiCad)(uri C:/Users/Clemens/Documents/KiCad/LTC4040_Prototyp_neu/ul_ltc4040eufd-trpbf/KiCAD/2021-11-29_12-35-30/footprints.pretty)(options "")(descr ""))
+  (lib (name SIR424DP-T1-GE3)(type KiCad)(uri C:/Users/Clemens/Documents/KiCad/LTC4040_Prototyp_neu/ul_SIR424DP-T1-GE3/KiCAD/2021-12-02_18-12-51/footprints.pretty)(options "")(descr ""))
+  (lib (name SIS488DN-T1-GE3)(type KiCad)(uri C:/Users/Clemens/Documents/KiCad/LTC4040_Prototyp_neu/ul_SIS488DN-T1-GE3/KiCAD/2021-12-02_20-00-05/footprints.pretty)(options "")(descr ""))
+  (lib (name XAL6030-222MEB)(type Legacy)(uri C:/Users/Clemens/Documents/KiCad/LTC4040_Prototyp_neu/XAL6030-222MEB-pcb-part-libraries/LIB_GET/XAL6030-222MEB/KiCad/XAL6030-222MEB.mod)(options "")(descr ""))
 )
