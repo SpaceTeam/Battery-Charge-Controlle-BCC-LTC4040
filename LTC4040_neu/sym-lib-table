@@ -1,9 +1,0 @@
-(sym_lib_table
-  (lib (name STS-con)(type Legacy)(uri ${KIPRJMOD}/STS1_PCB_LIBRARIES/STSLib/STS-con.lib)(options "")(descr ""))
-  (lib (name SPV1040T)(type Legacy)(uri C:/Users/Clemens/Desktop/Space_Team_SAT1/KICAD/SPV1040T_KICAD/SPV1040T.lib)(options "")(descr ""))
-  (lib (name STS1_template-rescue)(type Legacy)(uri ${KIPRJMOD}/STS1_template-rescue.lib)(options "")(descr ""))
-  (lib (name LTC4040)(type Legacy)(uri C:/Users/Clemens/Documents/KiCad/LTC4040_Prototyp_neu/ul_ltc4040eufd-trpbf/KiCAD/2021-11-29_12-35-30/2021-11-29_12-35-30.lib)(options "")(descr ""))
-  (lib (name SIR424DP-T1-GE3)(type Legacy)(uri C:/Users/Clemens/Documents/KiCad/LTC4040_Prototyp_neu/ul_SIR424DP-T1-GE3/KiCAD/2021-12-02_18-12-51/2021-12-02_18-12-51.lib)(options "")(descr ""))
-  (lib (name SIS488DN-T1-GE3)(type Legacy)(uri C:/Users/Clemens/Documents/KiCad/LTC4040_Prototyp_neu/ul_SIS488DN-T1-GE3/KiCAD/2021-12-02_20-00-05/2021-12-02_20-00-05.lib)(options "")(descr ""))
-  (lib (name XAL6030-222MEB)(type Legacy)(uri C:/Users/Clemens/Documents/KiCad/LTC4040_Prototyp_neu/XAL6030-222MEB-pcb-part-libraries/LIB_GET/XAL6030-222MEB/KiCad/XAL6030-222MEB.lib)(options "")(descr ""))
-)
